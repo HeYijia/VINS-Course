@@ -1,7 +1,8 @@
 # Vins Course
 **作者**：贺一家，高翔，崔华坤，赵松
+
 **描述**：
-这是一个用于深蓝学院教学的代码，她基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o. 虽然这是个基础版本, 她应该能帮助你学习后端优化 LM 算法流程，滑动窗口先验如何维护，鲁棒核函数如何书写等等 SLAM 优化中的常见问题。
+这是一个用于深蓝学院教学的代码，她基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。
 
 ### Licence
 The source code is released under GPLv3 license.
@@ -29,6 +30,10 @@ cmake ..
 make -j4
 ../bin/run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
 ```
+
+### 运行结果
+
+![vins](doc/vins.gif)
 
 ### 感谢
 

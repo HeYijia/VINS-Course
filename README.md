@@ -13,27 +13,41 @@ For commercial inquiries, please contact Song Zhao <?>
 
 ### 安装依赖项：
 
-2. pangolin: <https://github.com/stevenlovegrove/Pangolin>
-
-   用于 GUI 显示
+1. pangolin: <https://github.com/stevenlovegrove/Pangolin>
 
 2. opencv
 
 3. Eigen
 
+4. Ceres: vins 初始化部分使用了 ceres 做 sfm，所以我们还是需要依赖 ceres. 
+
 ### 编译代码
 
 ```c++
+mkdir vins_course
+cd vins_course
+git clone https://github.com/HeYijia/VINS-Course
 mkdir build 
 cd build
 cmake ..
 make -j4
-../bin/run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
 ```
 
-### 运行结果
+### 运行
+#### 1. CurveFitting Example to Verify Our Solver.
+```c++
+cd build
+../bin/testCurveFitting 
+```
 
+#### 2. VINs-Mono on Euroc Dataset
+```c++
+cd build
+../bin/run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
+```
 ![vins](doc/vins.gif)
+
+#### 3. VINs-Mono on Simulation Dataset (todo)
 
 ### 感谢
 

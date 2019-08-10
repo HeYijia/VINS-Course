@@ -1,0 +1,14 @@
+*~
+*.rviz
+
+*.aux
+*.log
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.nav
+*.so
+
+.vscode/
+build/

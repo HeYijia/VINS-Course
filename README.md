@@ -1,7 +1,5 @@
 # Vins Course
-```
-[![Build Status](https://github.com/HeYijia/VINS-Course/blob/master/doc/README-English-yellow.svg)](README_EN.md)
-```
+[ ![Build Status](doc/README-English-yellow.svg) ](README_EN.md)
 
 **作者**：贺一家，高翔，崔华坤，赵松
 

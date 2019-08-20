@@ -1,7 +1,5 @@
 # Vins Course
-```
-[![Build Status](https://github.com/HeYijia/VINS-Course/blob/master/doc/README-%E4%B8%AD%E6%96%87-yellow.svg)](README.md)
-```
+[![Build Status](doc/README-中文-yellow.svg)](README.md)
 
 **Authors**: He Yijia, Gao Xiang, Cui huakun, Zhao Song
 

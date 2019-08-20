@@ -3,13 +3,7 @@
 
 **描述**：
 这是一个用于深蓝学院教学的代码，她基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。
-
-### Licence
-The source code is released under GPLv3 license.
-
-We are still working on improving the code reliability. For any technical issues, please contact Yijia He <	heyijia2016@gmail.com> , Xiang Gao <<https://github.com/gaoxiang12>> or Huakun Cui<<https://github.com/StevenCui>>.
-
-For commercial inquiries, please contact Song Zhao <?>
+该代码支持 Ubuntu or Mac OS.
 
 ### 安装依赖项：
 
@@ -47,7 +41,21 @@ cd build
 ```
 ![vins](doc/vins.gif)
 
-#### 3. VINs-Mono on Simulation Dataset (todo)
+#### 3. VINs-Mono on Simulation Dataset (project homework)
+
+you can use this code to generate vio data.
+
+```c++
+https://github.com/HeYijia/vio_data_simulation
+```
+
+### Licence
+
+The source code is released under GPLv3 license.
+
+We are still working on improving the code reliability. For any technical issues, please contact Yijia He <heyijia_2013@163.com> , Xiang Gao <https://github.com/gaoxiang12> or Huakun Cui<https://github.com/StevenCui>.
+
+For commercial inquiries, please contact Song Zhao <zhaosong@shenlanxueyuan.com>
 
 ### 感谢
 

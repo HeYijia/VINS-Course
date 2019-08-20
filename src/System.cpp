@@ -272,7 +272,7 @@ void System::ProcessBackEnd()
             for (auto &imu_msg : measurement.first)
             {
                 double t = imu_msg->header;
-                double img_t = imu_msg->header + estimator.td;
+                double img_t = img_msg->header + estimator.td;
                 if (t <= img_t)
                 {
                     if (current_time < 0)

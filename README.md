@@ -1,8 +1,12 @@
 # Vins Course
+```
+[![Build Status](doc/README-English-yellow.svg)](README_EN.md)
+```
+
 **作者**：贺一家，高翔，崔华坤，赵松
 
 **描述**：
-这是一个用于深蓝学院教学的代码，她基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。
+这是一个用于[深蓝学院](<http://www.shenlanxueyuan.com/>)教学的代码，她基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。
 该代码支持 Ubuntu or Mac OS.
 
 ### 安装依赖项：

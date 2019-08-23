@@ -503,7 +503,7 @@ void Problem::ComputeLambdaInitLM() {
         currentChi_ += edge.second->RobustChi2();
     }
     if (err_prior_.rows() > 0)
-        currentChi_ += err_prior_.norm();
+        currentChi_ += err_prior_.squaredNorm();
     currentChi_ *= 0.5;
 
     stopThresholdLM_ = 1e-10 * currentChi_;          // 迭代条件为 误差下降 1e-6 倍
@@ -552,7 +552,7 @@ bool Problem::IsGoodStepInLM() {
         tempChi += edge.second->RobustChi2();
     }
     if (err_prior_.size() > 0)
-        tempChi += err_prior_.norm();
+        tempChi += err_prior_.squaredNorm();
     tempChi *= 0.5;          // 1/2 * err^2
 
     double rho = (currentChi_ - tempChi) / scale;

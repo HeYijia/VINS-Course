@@ -32,14 +32,14 @@ make -j4
 ### 运行
 #### 1. CurveFitting Example to Verify Our Solver.
 ```c++
-cd build
-../bin/testCurveFitting 
+cd bin
+./testCurveFitting 
 ```
 
 #### 2. VINs-Mono on Euroc Dataset
 ```c++
-cd build
-../bin/run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
+cd bin
+./run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
 ```
 ![vins](doc/vins.gif)
 

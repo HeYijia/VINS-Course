@@ -177,7 +177,9 @@ int main(int argc, char **argv)
 	thd_PubImageData.join();
 
 	// thd_BackEnd.join();
-	// thd_Draw.join();
+#ifdef __linux__	
+	thd_Draw.join();
+#endif
 
 	cout << "main end... see you ..." << endl;
 	return 0;

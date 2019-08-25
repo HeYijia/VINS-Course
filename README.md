@@ -51,6 +51,14 @@ you can use this code to generate vio data.
 https://github.com/HeYijia/vio_data_simulation
 ```
 
+#### 4. Validation Results
+[evo package](https://github.com/MichaelGrupp/evo)
+```c++
+evo_ape euroc euroc_mh05_groundtruth.csv pose_output.txt -a -p
+```
+
+![results](doc/results.png)
+
 ### Licence
 
 The source code is released under GPLv3 license.

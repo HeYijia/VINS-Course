@@ -414,6 +414,7 @@ void System::Draw()
         pangolin::FinishFrame();
         usleep(5000);   // sleep 5 ms
     }
+}
 
 #ifdef __APPLE__
 void System::InitDrawGL() 
@@ -475,5 +476,3 @@ void System::DrawGLFrame()
         usleep(5000);   // sleep 5 ms
     }
 #endif
-
-}

@@ -475,4 +475,5 @@ void System::DrawGLFrame()
         pangolin::FinishFrame();
         usleep(5000);   // sleep 5 ms
     }
+}
 #endif
